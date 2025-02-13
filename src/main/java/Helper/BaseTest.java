@@ -27,8 +27,8 @@ public class BaseTest {
     
     @BeforeMethod
     public void setup() {
-    	driver = new ChromeDriver();
-//    	driver = new EdgeDriver();
+//    	driver = new ChromeDriver();
+    	driver = new EdgeDriver();
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     	loadProperties();
     	driver.get(properties.getProperty("URL"));
