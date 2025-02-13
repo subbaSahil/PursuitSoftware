@@ -18,7 +18,7 @@ public class BaseTest {
     private Properties properties = new Properties();
     
     private void loadProperties() {
-    	try(FileInputStream fileInput = new FileInputStream("C:\\Users\\RashmiKumari\\eclipse-workspace\\pursuit_Software\\config.properties")){
+    	try(FileInputStream fileInput = new FileInputStream("C:\\Users\\SahilSubba\\eclipse-workspace\\testing1\\config.properties")){
     		properties.load(fileInput);
     	}catch(IOException e) {
     		e.printStackTrace();
@@ -27,8 +27,8 @@ public class BaseTest {
     
     @BeforeMethod
     public void setup() {
-//    	driver = new ChromeDriver();
-    	driver = new EdgeDriver();
+    	driver = new ChromeDriver();
+//    	driver = new EdgeDriver();
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     	loadProperties();
     	driver.get(properties.getProperty("URL"));

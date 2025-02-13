@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test1.testing1.AboutUsTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="Validate_About_Us_Button_Click_TC_001"/>
+          <include name="Verify_Nav_bar_content_change_on_scroll_down_TC_005"/>
+          <include name="Validate_CONTACT_US_ICON_button_click_TC_011"/>
+          <include name="setup"/>
+          <include name="Validate_Search_feature_TC_002"/>
+          <include name="Validate_first_JOIN_US_button_click_TC_003"/>
+          <include name="Validate_second_JOIN_US_button_click_TC_003"/>
+          <include name="Validate_CONTACT_US_button_click_TC_006"/>
+          <include name="Validate_LINKED_IN_ICON_button_click_TC_010"/>
+        </methods>
+      </class> <!-- Test1.testing1.AboutUsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
