@@ -4,6 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Test1.testing1.AboutUsTest"/>
+      <class name="Test1.testing1.BlogsAndInsightsTest"/>
+      <class name="Test1.testing1.CareerTabTest"/>
+      <class name="Test1.testing1.ContactUsTabTest"/>
+      <class name="Test1.testing1.HomeTabTest"/>
+      <class name="Test1.testing1.ServicesTabTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
